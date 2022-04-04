@@ -40,7 +40,7 @@ nav li a:hover {
   color: #CCD1D1;
 }
 .contact-me h1 {
-  /* margin-top: -300px; */
+   margin-top: -200px;
   text-indent: 10px;
 }
 #submit {
@@ -58,13 +58,6 @@ header p {
   padding-bottom: 10px;
   margin-bottom: 1px;
 }
-/*
-table { border-collapse: collapse; }
-#testtt td,
-th + th { border-left: 1px solid; }
-tr + tr { border-top: 1px solid; }
-*/
-
 form p:not(#confirm-email) {
   margin-left: 1em;
   display:inline;
