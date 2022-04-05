@@ -3,7 +3,7 @@
 
 <head>
   <meta charset="utf-8">
-  <link rel="stylesheet" type="text/css" href="./css/register.css">
+  <link rel="stylesheet" type="text/css" href="./css/update.css">
   <title>Your CV</title>
   <script src="js/register.js"></script>
 </head>
@@ -36,11 +36,10 @@
                   <form>
                     <p>First Name:</p>
                     <input type="text" id="name" name="Name" placeholder="First Name" /><br>
-
                     <p>Last Name:</p>
                     <input type="text" id="lname" name="LName" placeholder="Last Name" /><br>
-
                     <p id="email-text">Email:</p>
+
                     <input name="Email" id="email" placeholder="Email" />
 
                     <p>Mobile:</p>
@@ -49,7 +48,40 @@
                     <br><br>
                     <input id="submit" onclick="buttonClick()" id="submit" type="submit" value="Submit">
                     <input type="reset">
+
+
+                    <form class="" action="index.html" method="post">
+                      <fieldset>
+                        <legend>Personal Details</legend>
+                        <label for="fname">First Name:</label><br>
+                        <input type="text" id="fname" name="fname"><br>
+
+                        <label for="lname">Last Name:</label><br>
+                        <input type="text" id="lname" name="lname"><br><br>
+
+                        <label for="lname">Mobile:</label><br>
+                        <input type="password" id="mobile" name="mobile" placeholder="Mobile" required>
+                      </fieldset>
+                    </form>
+
+                    <p>Contact Email</p>
+                    <input name="Email" id="email" placeholder="Email" />
+
+                    <fieldset>
+                      <legend>Education</legend>
+                      <p id="small-text">Please select an option:</p><br>
+                      <input type="checkbox" name="education" value="GCSE">GCSE<br>
+                      <input type="checkbox" name="education" value="A-Level">A-Level<br>
+                      <input type="checkbox" name="education" value="A-Level">Degree (Undergraduate)<br>
+                      <input type="checkbox" name="education" value="A-Level">Degree (Postgraduate)<br>
+                      <input type="checkbox" name="education" value="A-Level">Master's Degree<br>
+                      <input type="checkbox" name="education" value="A-Level">Doctorate (PhD)<br>
+                    </fieldset>
                   </form>
+
+                  <input type="submit" value="Submit">
+                  <input type="reset">
+
             </td>
           </tr>
         </table>
