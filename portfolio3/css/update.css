@@ -28,6 +28,9 @@ li a:hover:not(.active) {
 }
 /* ----------- TEST NAVBAR END ----------- */
 
+searchbar {
+  align: center;
+}
 
 ul li {
   font-family: "Arial";
@@ -37,13 +40,11 @@ ul li {
 nav {
   display: block;
   margin-top: 20px;
-  /* margin-left: 19px; margin-right: 18px; */
   padding: 10px;
   color: #C0BAB6;
   background-color: #333;
 }
 nav ul {
- /* text-align: center; */
  margin-left: 400px;
 }
 #search {
@@ -63,34 +64,18 @@ nav li a:hover {
   color: #CCD1D1;
 }
 .contact-me h1 {
-
   text-indent: 10px;
 }
-#submit {
-  margin-left: 1em;
-}
-#email, #name, #lname {
-  margin-top: 3px;
-}
-p u {
-  margin-left: 1em;
-}
-header p {
-  font-size: 10px;
-  text-align: center;
-  padding-bottom: 10px;
-  margin-bottom: 1px;
-}
 form p:not(#confirm-email) {
-  margin-left: 1em;
   display:inline;
-}
-#email-text {
-  padding-left: 2.35em;
 }
 fieldset {
   margin: 10px;
 }
 #fname, #lname {
   display:inline;
+}
+.submit {
+  display: flex;
+  margin-left: 350px;
 }
