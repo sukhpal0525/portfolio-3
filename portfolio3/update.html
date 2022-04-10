@@ -71,12 +71,13 @@
     </div>
   </nav>
 -->
-  <table width="1904px" height="500px" align="center" bgcolor="#CCD1D1">
+
+  <table width="1500px" height="500px" align="center" bgcolor="#CCD1D1">
     <tr>
       <td>
         <table align="center">
           <tr>
-            <td width="150px" height="500px" bgcolor="FDFEFE">
+            <td width="150px" height="500px" align="center" bgcolor="FDFEFE">
             </td>
             <td width="700px" height="500px" bgcolor="FDFEFE">
 
@@ -107,17 +108,94 @@
                   <div class="">
                     <fieldset>
                       <legend><b>Personal Details</b></legend>
+                      <table cellspacing="0" width="600">
+                        <tr>
+                          <td>
+                            <label for="fname">First</label>, <label for="LastName">Last Name:</label>
+                          </td>
+                          <td>
+                            <input id="fname" name="fname" type="text" />
+                            <input id="lname" name="lname" type="text" />
+                          </td>
+                        </tr>
+                        <tr>
+                          <td>
+                            <label for="email">Contact Email:</label>
+                          </td>
+                          <td>
+                            <input id="email" name="email" type="text" style="width:150%;max-width: 350px;" />!!
+                          </td>
+                        </tr>
+                        <tr>
+                          <td>
+                            <label for="dateofbirth">Date of Birth:</label>
+                          </td>
+                          <td>
+                            <input name="dateofbirth" type="date" style="width:100%;max-width: 172px;" />
+                          </td>
+                        </tr>
+                        <tr>
+                          <td>
+                            <label for="Mobile">Mobile</label>
+                          </td>
+                          <td>
+                            <input name="Mobile" type="text" />
+                          </td>
+                        </tr>
+                        <tr>
+                          <td>
+                            <label for="Mobile">Home Telephone</label>
+                          </td>
+                          <td>
+                            <input name="Mobile" type="text" />
+                          </td>
+                        </tr>
+                      </table><br>
+
+                      <table cellspacing="0" width="564">
+                        <tr>
+                          <td>
+                            <label for="fname">Address | Postcode</label>
+                            <label for="address1"></label>
+                          </td>
+                          <td>
+                            <input id="address" name="address" type="text" placeholder="(Use an example address)" />
+                            <input id="address" name="address" type="text" />
+                          </td>
+                        </tr>
+                        <tr>
+                          <td>
+                            <label for="fname">Country | City</label>
+                            <label for="address2"></label>
+                          </td>
+                          <td>
+                            <input id="country" name="country" type="text" />
+                            <input id="city" name="city" type="text" />
+                          </td>
+                        </tr>
+
+                      </table>
+
+                      <!--
+                      <p>First Name:</p><input type="text" id="fname" name="Name" placeholder="" /><br>
+                      <p>Last Name:</p> <input type="text" id="lname" name="Name" placeholder="" /><br>
+                      <p>Contact Email:</p> <input name="Email" id="email" placeholder="" />
+                      <p>Password:</p> <input type="password" id="password" name="Password" placeholder="Password" required>
+                      <p>Mobile:</p><input type="text" id="mobile" name="Mobile" pattern="[0-9]{11}" placeholder="Phone Number">
+-->
+                      <!--
                       <label for="fname">First Name:</label><br>
                       <input type="text" id="fname" name="fname"><br>
 
                       <label for="lname">Last Name:</label><br>
                       <input type="text" id="lname" name="lname"><br><br>
 
+
                       <label for="lname">Mobile:</label><br>
                       <input type="password" id="mobile" name="mobile" placeholder="" required>
+  -->
                     </fieldset>
                   </div>
-
 
 
                   <fieldset>

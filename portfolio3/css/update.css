@@ -28,34 +28,27 @@ li a {
 searchbar {
   align: center;
 }
-
 ul li {
   font-family: "Arial";
   font-size: 16px;
   justify-content: center;
 }
 nav {
-  display: block;
   margin-top: 20px;
   padding: 10px;
   color: #C0BAB6;
   background-color: #333;
 }
 nav ul {
- margin-left: 400px;
-}
-#search {
- margin-top: 5px;
- align-items: center;
+ margin-left: 600px;
 }
 nav li {
   display: inline;
-  margin-right: 25px;
 }
 nav li a {
   color: #ffffff;
   font-size: 12px;
-display:inline;
+  display:inline;
 }
 nav li a:hover {
   color: #CCD1D1;
@@ -69,7 +62,7 @@ form p:not(#confirm-email) {
 fieldset {
   margin: 10px;
 }
-#fname, #lname {
+#fname, #lname, #email, #password {
   display:inline;
 }
 .submit {
