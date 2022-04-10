@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
 
@@ -11,19 +12,7 @@
 
 <body>
 
-  <nav>
-    <ul>
-      <li><a class="active" href="#home">Home</a></li>
-      <li><a href="#news">News</a></li>
-      <li><a href="#contact">Contact</a></li>
-      <li style=margin-right:"100px;"><a href="#about">About</a></li>
 
-      <form class="search" action="/search.php" style="max-width:300px;margin:auto;">
-        <input type="text" placeholder="Search..." name="searchbar">
-        <button type="submit"><i class="searchbutton"></i></button>
-      </form>
-    </ul>
-  </nav>
 
   <!--
     <ul>
@@ -72,7 +61,7 @@
   </nav>
 -->
 
-  <table width="1500px" height="500px" align="center" bgcolor="#CCD1D1">
+  <table width="1904px" height="500px" align="center" bgcolor="#CCD1D1">
     <tr>
       <td>
         <table align="center">
@@ -111,7 +100,7 @@
                       <table cellspacing="0" width="600">
                         <tr>
                           <td>
-                            <label for="fname">First</label>, <label for="LastName">Last Name:</label>
+                            <label for="fname">Full Name</label>
                           </td>
                           <td>
                             <input id="fname" name="fname" type="text" />
@@ -123,7 +112,7 @@
                             <label for="email">Contact Email:</label>
                           </td>
                           <td>
-                            <input id="email" name="email" type="text" style="width:150%;max-width: 350px;" />!!
+                            <input id="email" name="email" type="text" style="width:150%;max-width: 350px;" />
                           </td>
                         </tr>
                         <tr>
@@ -152,10 +141,11 @@
                         </tr>
                       </table><br>
 
+
                       <table cellspacing="0" width="564">
                         <tr>
                           <td>
-                            <label for="fname">Address | Postcode</label>
+                            <label for="fname">Address, Postcode</label>
                             <label for="address1"></label>
                           </td>
                           <td>
@@ -165,7 +155,7 @@
                         </tr>
                         <tr>
                           <td>
-                            <label for="fname">Country | City</label>
+                            <label for="fname">Country, City</label>
                             <label for="address2"></label>
                           </td>
                           <td>

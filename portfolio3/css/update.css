@@ -25,16 +25,13 @@ li a {
 }
 /* ----------- TEST NAVBAR END ----------- */
 
-searchbar {
-  align: center;
-}
 ul li {
   font-family: "Arial";
   font-size: 16px;
   justify-content: center;
 }
 nav {
-  margin-top: 20px;
+  margin-top: 10px;
   padding: 10px;
   color: #C0BAB6;
   background-color: #333;
@@ -68,4 +65,7 @@ fieldset {
 .submit {
   margin-left: 283px;
   margin-bottom: 5px;
+}
+#searchbutton {
+  margin-left: -3px;
 }
