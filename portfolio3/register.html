@@ -11,13 +11,15 @@
 <body>
   <nav>
     <ul>
-      <input type="text" id="email" name="email" placeholder="Email" />
-      <input type="text" id="password" name="password" placeholder="Password" />
-      <input type="submit" id="signup" value="Log In"><br>
-      <li><a href="file:sign-up.html">Register</a></li>
-      <input type="text" id="search" placeholder="Search">
+      <li><a class="active" href="#home">Home</a></li>
+      <li><a href="#news">News</a></li>
+      <li><a href="#contact">Contact</a></li>
+      <li style=margin-right:"100px;"><a href="#about">About</a></li>
 
-
+      <form class="search" action="/search.php" style="max-width:300px;margin:auto;">
+        <input type="text" placeholder="Search..." name="searchbar">
+        <button type="submit"><i class="searchbutton"></i></button>
+      </form>
     </ul>
   </nav>
 
