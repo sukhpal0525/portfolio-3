@@ -1,3 +1,6 @@
+<?php
+include_once('navbar.php')
+ ?>
 
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
@@ -11,8 +14,6 @@
 </head>
 
 <body>
-
-
 
   <!--
     <ul>
@@ -193,10 +194,10 @@
                     <p id="small-text">Please select an option:</p><br><br>
                     <input type="checkbox" name="education" value="GCSE">GCSE<br>
                     <input type="checkbox" name="education" value="A-Level">A-Level<br>
-                    <input type="checkbox" name="education" value="A-Level">Degree (Undergraduate)<br>
-                    <input type="checkbox" name="education" value="A-Level">Degree (Postgraduate)<br>
-                    <input type="checkbox" name="education" value="A-Level">Master's Degree<br>
-                    <input type="checkbox" name="education" value="A-Level">Doctorate (PhD)<br>
+                    <input type="checkbox" name="education" value="Undergraduate">Degree (Undergraduate)<br>
+                    <input type="checkbox" name="education" value="Postgraduate">Degree (Postgraduate)<br>
+                    <input type="checkbox" name="education" value="Masters">Master's Degree<br>
+                    <input type="checkbox" name="education" value="Doctorate">Doctorate (PhD)<br>
                   </fieldset>
 
                   <fieldset>

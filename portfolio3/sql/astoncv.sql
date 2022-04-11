@@ -18,10 +18,10 @@ SET time_zone = "+00:00";
 /*!40101 SET NAMES utf8mb4 */;
 
 --
--- Database: `astoncv`
+-- Database: `u_200045962_astoncv`
 --
-CREATE DATABASE IF NOT EXISTS `astoncv` DEFAULT CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci;
-USE `astoncv`;
+CREATE DATABASE IF NOT EXISTS `u_200045962_astoncv` DEFAULT CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci;
+USE `u_200045962_astoncv`;
 
 -- --------------------------------------------------------
 

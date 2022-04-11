@@ -53,22 +53,6 @@ include_once('dbconnect.php');
                   <table id="logintable" cellspacing="0" width="600">
                     <tr>
                       <td>
-                        <label for="email">Contact Email:</label>
-                      </td>
-                      <td>
-                        <input id="email" name="email" type="text" style="width:150%;max-width: 350px;" />
-                      </td>
-                    </tr>
-                    <tr>
-                      <td>
-                        <label for="dateofbirth">Date of Birth:</label>
-                      </td>
-                      <td>
-                        <input name="dateofbirth" type="date" style="width:100%;max-width: 172px;" />
-                      </td>
-                    </tr>
-                    <tr>
-                      <td>
                         <label for="Mobile">Mobile</label>
                       </td>
                       <td>
