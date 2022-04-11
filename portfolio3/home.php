@@ -1,37 +1,35 @@
 <?php
 include_once('navbar.php');
 include_once('dbconnect.php');
-
  ?>
-
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
 
 <head>
   <meta charset="utf-8">
-  <link rel="stylesheet" type="text/css" href="./css/home.css">
+  <link rel="stylesheet" type="text/css" href="./css/index.css">
   <title>Home</title>
   <script src="js/register.js"></script>
 </head>
 
 <body>
 
-  <table width="1904px" height="500px" align="center" bgcolor="#CCD1D1">
+  <table width="1904px" height="400px" align="center" bgcolor="#CCD1D1">
     <tr>
       <td>
         <table id="logintable" align="center">
           <tr>
-            <td width="150px" height="500px" align="center" bgcolor="FDFEFE">
+            <td width="150px" height="400px" align="center" bgcolor="FDFEFE">
             </td>
-            <td width="500px" height="500px" align="center" bgcolor="FDFEFE">
+            <td width="500px" height="400px" align="center" bgcolor="FDFEFE">
 
-              <form class="" action="index.html" method="post">
+              <form class="login" action="login.php" method="post">
                 <div class="">
                   <fieldset>
                     <legend><b>Login</b></legend>
-                    <table cellspacing="0" width="600">
+                    <table cellspacing="0" width="300">
                       <tr>
-                        <td><label for="fname">Emails</label></td>
+                        <td><label for="fname">Email</label></td>
                         <td>
                           <input id="email" name="email" type="text" />
                         </td>
@@ -41,39 +39,49 @@ include_once('dbconnect.php');
                           <label for="password">Password</label>
                         </td>
                         <td>
-                          <input name="password" type="date" style="width:100%;max-width: 172px;" />
+                          <input type="password" style="width:100%;max-width:169px;">
                         </td>
                       </tr>
                     </table>
                 </div><br>
+              </form>
 
-
+              <form class="register" action="register.php" method="post">
                 <fieldset>
                   <legend><b>Register</b></legend>
-                  <table id="logintable" cellspacing="0" width="600">
+                  <table cellspacing="0" width="300">
                     <tr>
+                      <td><label for="fname">Full Name</label></td>
                       <td>
-                        <label for="Mobile">Mobile</label>
-                      </td>
-                      <td>
-                        <input name="Mobile" type="text" />
+                        <input id="fname" name="fname" type="text" style="width:100%;max-width:79px;" />
+                        <input id="lname" name="lname" type="text" style="width:100%;max-width:78px;" />
                       </td>
                     </tr>
                     <tr>
                       <td>
-                        <label for="Mobile">Home Telephone</label>
+                        <label for="email">Email</label>
                       </td>
                       <td>
-                        <input name="Mobile" type="text" />
+                        <input type="email" style="width:100%;max-width:169px;">
+                      </td>
+                    </tr>
+                    <tr>
+                      <td>
+                        <label for="password">Password</label>
+                      </td>
+                      <td>
+                        <input type="password" style="width:100%;max-width:169px;">
                       </td>
                     </tr>
                   </table>
                 </fieldset>
-              </form>
 
+                <div class="submit">
+                  <input type="submit" value="Submit">
+                  <input type="reset">
+                </div>
 
-
-              <!--
+                <!--
                   <table id="testtt" cellpadding="1" cellspacing="1" align="center" width="100%">
                     <tbody>
                       <tr align="center">
@@ -111,7 +119,7 @@ include_once('dbconnect.php');
                 </div>
               </div>
 -->
-              <table></table>
+                <table></table>
           <tr>
             <td bgcolor="#333">
             </td>
@@ -124,7 +132,6 @@ include_once('dbconnect.php');
             </td>
           </tr>
 
-
           <tr bgcolor="#f2f2f2" align="center">
             <td><a href="https://www.google.com">#1</a>&nbsp;</td>
             <td align="left">&nbspHello example info&nbsp;</td>
@@ -134,7 +141,6 @@ include_once('dbconnect.php');
             <td><a href="https://www.google.com">#2</a>&nbsp;</td>
             <td align="left">&nbspHello example info&nbsp;</td>
           </tr>
-          </div>
       </td>
     </tr>
   </table>
