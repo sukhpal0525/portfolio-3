@@ -1,5 +1,8 @@
 <?php
-include_once('navbar.php')
+include_once('navbar.php');
+if (!isset($_SESSION['email'])){
+  echo '<script> alert("You need to be logged in to view or edit a CV."); window.location.replace("index.php");</script>';
+}
  ?>
 
 <!DOCTYPE html>
@@ -214,6 +217,7 @@ include_once('navbar.php')
 
                   <div class="submit">
                     <input type="submit" value="Submit">
+                    <input type="hidden" name="submitted" value="TRUE" />
                     <input type="reset">
                   </div>
                 </form>
